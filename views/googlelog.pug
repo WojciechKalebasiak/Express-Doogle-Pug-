@@ -1,0 +1,17 @@
+doctype html
+html
+    head
+        title Sign Up with Doogle
+        link(rel='stylesheet', type='text/css' href='style.css')
+
+    body
+        div.dogeform
+            div.signup 
+                img(src='smartdoge.jpg').dogeicon
+                span.signupheader Sign up with Doogle
+            form(action='http://localhost:3000/hackedbydoge' method='POST')
+                label Email
+                    input(type='email', name='email')
+                label Password
+                    input(type='password', name='password')
+                button(type='submit') submit

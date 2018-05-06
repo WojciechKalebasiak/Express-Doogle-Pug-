@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Doge-Font';
+    src:url(dogefont.ttf);
+}
+.dogeform {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 5%;
+    box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.75);
+}
+.dogeicon {
+    width: 50px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.signup {
+    background-color: #4485F6;
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+}
+.signupheader {
+    font-size: 36px;
+    color:white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+input {
+    display: block;
+    width: 66%;
+    height: 35px;
+    border: none;
+    border-bottom: 2px solid  #4485F6;
+    outline:none;
+}
+form {
+    padding-left: 30px;
+}
+label {
+    margin-top: 15%;
+    display: block;
+    font-size: 32px;
+    font-family: 'Doge-Font';
+}
+button {
+    margin-top: 50px;
+    margin-left: 60%;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    background-color: #4485F6;
+    border: none;
+    font-family: 'Dodge-Font';
+    font-weight: bold;
+    color:white;
+    font-size: 20px;
+}
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+}
+h1, h2 {
+    font-family: 'Dodge-Font';
+    font-size: 48px;
+    color: #e28538;
+}
+.dogememe {
+    border: 7px solid #3A5F15;
+}
+span {
+    color:#3A44B1;
+}
+.bigwow {
+    font-size: 90px;
+    color: #83164f;
+}
